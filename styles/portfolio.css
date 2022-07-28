@@ -1,0 +1,43 @@
+h1 {
+  font-family: "Bodoni Moda", serif;
+}
+
+p {
+  transform: rotate(90deg);
+}
+
+.hero {
+  text-align: center;
+}
+
+.col-10 {
+  padding: 0px;
+}
+
+.circles {
+  padding: 250px 0px;
+}
+
+.menu-icon {
+  text-align: center;
+}
+
+.circle-active {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 10px;
+}
+
+.circle {
+  text-align: center;
+  font-size: 7px;
+}
+
+.hero-image {
+  max-width: 70%;
+  float: right;
+}
+
+.side-text {
+  text-orientation: sideways-right;
+}
