@@ -1,16 +1,17 @@
 h1 {
   font-family: "Bodoni Moda", serif;
+  color: #a3a8b3;
 }
 
-p {
-  transform: rotate(90deg);
-}
-
-.hero {
-  text-align: center;
+p,
+a {
+  /*transform: rotate(90deg);*/
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 14px;
 }
 
 .col-10 {
+  margin-left: 8.3%;
   padding: 0px;
 }
 
@@ -19,25 +20,121 @@ p {
 }
 
 .menu-icon {
+  padding-top: 25px;
   text-align: center;
+  color: #c7cad1;
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  color: #352810;
+}
+
+.homepage-hero .menu-icon {
+  display: none;
 }
 
 .circle-active {
   text-align: center;
   margin: 20px 0px;
   font-size: 10px;
+  color: #c7cad1;
 }
 
 .circle {
   text-align: center;
   font-size: 7px;
+  color: #c7cad1;
+}
+
+.homepage-hero {
+  padding-bottom: 50px;
 }
 
 .hero-image {
-  max-width: 70%;
+  width: 70%;
   float: right;
 }
 
-.side-text {
-  text-orientation: sideways-right;
+.hero-heading {
+  font-size: 120px;
+  font-weight: lighter;
+  line-height: 0.9em;
+  width: 50px;
+  padding: 310px 140px 0px;
+}
+
+.read-more {
+  color: #a3a8b3;
+  border-bottom: 1px solid #a3a8b3;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-decoration: none;
+  transition: all 200ms ease;
+  cursor: pointer;
+  padding-left: 70%;
+}
+
+.read-more:hover {
+  color: #352810;
+}
+
+.homepage-content {
+  padding: 20px 50px;
+}
+
+.rotate p {
+  color: #c7cad1;
+  writing-mode: vertical-rl;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+@media (max-width: 480px) {
+  .homepage-hero .menu-icon {
+    display: flex;
+    padding: 15px 0px 0px;
+    color: #352810;
+  }
+
+  .homepage-hero .menu-icon:hover {
+    display: flex;
+    float: left;
+    color: #a3a8b3;
+  }
+
+  .hero-image {
+    width: 300%;
+    float: right;
+  }
+
+  .hero-heading {
+    padding: 270px 30px 0px;
+    font-size: 50px;
+    width: 50px;
+    font-weight: lighter;
+    line-height: 0.9em;
+  }
+
+  .read-more {
+    display: none;
+  }
+
+  .homepage-content {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+  .hero-image {
+    width: 200%;
+    float: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-heading {
+    font-size: 50px;
+    padding: 450px 80px 0px;
+  }
 }

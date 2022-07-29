@@ -27,25 +27,81 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-1" style="background-color: #F9F9F9;">
+            <div class="col-1 position-fixed d-none d-md-block h-100" style="background-color: #FAF9F9;">
                 <div class="menu-icon">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="circles">
-                    <div class="circle-active"> <i class="fa-solid fa-circle"></i></div>
-                    <div class="circle"><i class="fa-regular fa-circle"></i></div>
+                    <div class="circle-active">
+                        <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa-regular fa-circle"></i>
+                    </div>
                 </div>
             </div>
             <div class="col-10">
-                <img src="/images/hero-image2.jpg" alt="hero-image-Bonnie-Hill" class="hero-image">
-                <h1>bonnie axelsen</h1>
+                <div class="homepage-hero">
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="hero-image">
+                        <img src="/images/hero-image2.jpg" class="img-fluid" alt="hero-image-Bonnie-Hill">
+                    </div>
+
+                    <h1 class="hero-heading">bonnie axelsen</h1>
+                    <a href="#homepage-content" class="read-more">Read more ↓</a>
+                </div>
+                <div class="homepage-content" id="homepage-content">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional
+                                        content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/images/weather app mobile.png" class="image-fluid card-img-top w-50" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional
+                                        content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mx-auto">
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional
+                                        content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-1" style="background-color: #F9F9F9;">
-                <p>Aspiring Front-end developer</p>
+            <div class="col-1" style="background-color: #FAF9F9;">
+                <span class="rotate">
+                    <p class="text-center d-none d-md-block">Aspiring front-end developer</p>
+                </span>
             </div>
         </div>
-    </div>
-
+        <div class="menu">
+            <a href="/index.html">Home</a>
+            <a href="#hero-content">About</a>
+            <a href="/work.html">Work</a>
+            <a href="/contact.html">Contact</a>
+        </div>
 </body>
 
 </html>
